@@ -1,0 +1,13 @@
+ <View>
+        <View style={styles.layer}>
+          <Text style={styles.layer}>We will feed you</Text>
+        </View>
+        <View style={styles.button}>
+            <Button
+              title= "Sign up" 
+            />
+            <Button
+             title= "Sign in"
+            />
+        </View> 
+      </View>
