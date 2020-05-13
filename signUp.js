@@ -48,6 +48,7 @@ export default class SignUp extends React.Component {
               <Text style={styles.name}>Phone</Text>
             <TextInput style={styles.text}  placeholder="+234" />
             <Text style={styles.alert}>We sent you a password in SMS</Text>
+            <Text style={styles.alert}>this password expires in 10minutes.</Text>
             <Text style={{ color: 'red' }}>{this.state.phoneErrorMessage}</Text>
           </View>
           <View style={styles.name}>
